@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/<your-username>/login-app.git'
+                git 'https://github.com/karthickbalaraman6/loginpage.git'
             }
         }
 
